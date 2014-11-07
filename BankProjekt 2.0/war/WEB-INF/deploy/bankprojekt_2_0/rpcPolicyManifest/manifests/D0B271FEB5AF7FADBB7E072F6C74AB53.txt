@@ -1,0 +1,2 @@
+serviceClass: de.hdm.thies.bankProjekt.shared.BankAdministration
+path: 8CABFE9817D7909550D37229C7D7BA23.gwt.rpc

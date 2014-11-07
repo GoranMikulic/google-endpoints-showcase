@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=BankProjekt 2.0/src&lt;de.hdm.thies.bankProjekt.client{ShowAllCustomersAndTheirAccountsDemo.java[ShowAllCustomersAndTheirAccountsDemo[GetAllCustomersCallback" modifiers="0" timestamp="1385979364000"/>
+<typeInfo handle="=BankProjekt 2.0/src&lt;de.hdm.thies.bankProjekt.client{BankProjekt.java[BankProjekt" modifiers="1" timestamp="1414495934000"/>
+<typeInfo handle="=BankProjekt 2.0/src&lt;de.hdm.thies.bankProjekt.client.gui{BankProjekt.java[BankProjekt" modifiers="1" timestamp="1397579414000"/>
+<typeInfo handle="=BankProjekt 2.0/src&lt;de.hdm.thies.bankProjekt.client{Showcase.java[Showcase" modifiers="1025" timestamp="1414491091000"/>
+<typeInfo handle="=BankProjekt 2.0/src&lt;de.hdm.thies.bankProjekt.client{ClientsideSettings.java[ClientsideSettings" modifiers="1" timestamp="1385979364000"/>
+<typeInfo handle="=BankProjekt 2.0/src&lt;de.hdm.thies.bankProjekt.client{CreateAccountDemo.java[CreateAccountDemo" modifiers="1" timestamp="1385979364000"/>
+<typeInfo handle="=BankProjekt 2.0/src&lt;de.hdm.thies.bankProjekt.shared{BankAdministration.java[BankAdministration" modifiers="513" timestamp="1369991486000"/>
+<typeInfo handle="=BankProjekt 2.0/src&lt;de.hdm.thies.bankProjekt.shared{BankAdministrationAsync.java[BankAdministrationAsync" modifiers="513" timestamp="1369991566000"/>
+<typeInfo handle="=BankProjekt 2.0/src&lt;de.hdm.thies.bankProjekt.server.db{DBConnection.java[DBConnection" modifiers="1" timestamp="1414495768000"/>
+<typeInfo handle="=BankProjekt 2.0/src&lt;de.hdm.thies.bankProjekt.server{BankAdministrationEndpoints.java[BankAdministrationEndpoints" modifiers="1" timestamp="1415358612000"/>
+<typeInfo handle="=BankProjekt 2.0/src&lt;de.hdm.thies.bankProjekt.server{BankAdministrationImpl.java[BankAdministrationImpl" modifiers="1" timestamp="1414484666000"/>
+</typeInfoHistroy>

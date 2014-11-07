@@ -1,0 +1,32 @@
+package de.hdm.thies.bankProjekt.server;
+
+import com.google.api.server.spi.config.Api;
+import com.google.api.server.spi.config.ApiMethod;
+
+import de.hdm.thies.bankProjekt.shared.BankAdministration;
+import de.hdm.thies.bankProjekt.shared.BankAdministrationAsync;
+
+@Api(name="bankadministrationapi", version="v1", description="Bank Administration APIs")
+public class BankAdministrationEndpoints {
+	
+	BankAdministration administration;
+	
+//	public BankAdministrationEndpoints() {
+//		if(administration == null) {
+//			this.administration = new BankAdministrationImpl();
+//			this.administration.init();
+//		}
+//	}
+	
+	@ApiMethod(name="getAllCustomers")
+	public Vector<Customer> getAllCustomers(BankAdministrationAsync bankVerwaltung) {
+		
+		if(administration == null) {
+			this.administration = new BankAdministrationImpl();
+			this.administration.init();
+		}
+		// bankVerwaltung.getAllCustomers(new GetAllCustomersCallback(this));
+		
+		return administration.getAllCustomers();
+	}
+}

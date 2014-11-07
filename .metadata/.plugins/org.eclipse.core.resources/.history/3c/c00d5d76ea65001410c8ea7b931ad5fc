@@ -1,0 +1,26 @@
+package de.hdm.thies.bankProjekt.server;
+
+import java.util.Vector;
+
+import de.hdm.thies.bankProjekt.shared.BankAdministration;
+import de.hdm.thies.bankProjekt.shared.BankAdministrationAsync;
+import de.hdm.thies.bankProjekt.shared.bo.Customer;
+
+public class BankAdministrationEndpoints {
+	
+	BankAdministration administration;
+	
+	public BankAdministrationEndpoints() {
+		if(administration == null) {
+			this.administration = new BankAdministrationImpl();
+			this.administration.init();
+		}
+	}
+
+	
+
+	public void printAllCustomers(BankAdministrationAsync bankVerwaltung) {
+		
+		// bankVerwaltung.getAllCustomers(new GetAllCustomersCallback(this));
+	}
+}

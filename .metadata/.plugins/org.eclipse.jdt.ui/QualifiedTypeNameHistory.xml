@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="de.hdm.thies.bankProjekt.shared.BankAdministrationAsync"/>
+<fullyQualifiedTypeName name="de.hdm.thies.bankProjekt.client.ClientsideSettings"/>
+<fullyQualifiedTypeName name="sun.swing.BakedArrayList"/>
+<fullyQualifiedTypeName name="de.hdm.thies.bankProjekt.server.ServersideSettings"/>
+<fullyQualifiedTypeName name="de.hdm.thies.bankProjekt.shared.BankAdministration"/>
+<fullyQualifiedTypeName name="com.google.api.server.spi.config.Api"/>
+<fullyQualifiedTypeName name="com.google.api.server.spi.config.ApiMethod"/>
+<fullyQualifiedTypeName name="java.util.Vector"/>
+<fullyQualifiedTypeName name="de.hdm.thies.bankProjekt.shared.bo.Customer"/>
+<fullyQualifiedTypeName name="de.hdm.thies.bankProjekt.server.BankAdministrationImpl"/>
+<fullyQualifiedTypeName name="de.hdm.thies.bankProjekt.shared.bo.Account"/>
+<fullyQualifiedTypeName name="com.google.api.server.spi.config.Named"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,2 @@
+serviceClass: de.hdm.thies.bankProjekt.shared.ReportGenerator
+path: E432B92AB80131AD856CAEF212838385.gwt.rpc

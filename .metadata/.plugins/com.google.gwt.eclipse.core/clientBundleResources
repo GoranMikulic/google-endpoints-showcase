@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<index>
+<deps cu="=BankProjekt 2.0/src&lt;de.hdm.thies.bankProjekt.client.gui{BankProjekt.java">
+<res path="cellTreeOpenItem.gif"/>
+<res path="de/hdm/thies/bankProjekt/client/gui/cellTreeClosedItem.gif"/>
+<res path="de/hdm/thies/bankProjekt/client/gui/cellTreeOpenItem.gif"/>
+<res path="cellTreeClosedItem.gif"/>
+<res path="de/hdm/thies/bankProjekt/client/gui/BankCellTree.css"/>
+<res path="BankCellTree.css"/>
+</deps>
+</index>
