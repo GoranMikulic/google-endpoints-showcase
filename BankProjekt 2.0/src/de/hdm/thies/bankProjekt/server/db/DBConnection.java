@@ -79,12 +79,12 @@ public class DBConnection {
 		if (con == null) {
 			try {
 				
-				//Abhängig von der Umgebung wird der notwendige DB Treiber geladen und die entsprechende Verbindung gewählt 
+				//Abhängig von der Umgebung wird der notwendige DB Treiber geladen und die entsprechende Verbindung gewählt
 				if (SystemProperty.environment.value() == SystemProperty.Environment.Value.Production) {
 					ServersideSettings.getLogger().info("Registering AppEngineDriver");
 					Class.forName("com.mysql.jdbc.GoogleDriver");
 					
-					//Anders als bei der lokalen mysql Verbindung wird hier das Passwort nicht als Parameter übergeben
+					//anders als bei der lokalen mysql Verbindung wird hier das Passwort nicht als Parameter übergeben
 					url = "jdbc:google:mysql://skillful-octane-742:bankproject/bankproject?user=root";
 				} else {
 					
