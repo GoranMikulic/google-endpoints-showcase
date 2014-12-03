@@ -1,4 +1,4 @@
-package de.hdm.bank_android_client;
+ package de.hdm.bank_android_client;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -11,6 +11,17 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
+		new BankEndpointTask().execute("");
+		
+	}
+	
+	@Override
+	protected void onResume() {
+		// TODO Auto-generated method stub
+		super.onResume();
+		
+		new BankEndpointTask().execute("");
 	}
 
 	@Override

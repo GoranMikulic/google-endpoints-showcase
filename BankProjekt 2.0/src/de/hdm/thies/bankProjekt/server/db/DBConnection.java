@@ -89,8 +89,8 @@ public class DBConnection {
 				} else {
 					
 					ServersideSettings.getLogger().info("Registering MySql jdbc driver for local development");
-					//url = "jdbc:mysql://173.194.83.186:3306/bankproject?user=root&password=advancedSoftware2014";
-					url = "jdbc:mysql://127.0.0.1:3306/bankproject?user=root";
+					url = "jdbc:mysql://173.194.83.186:3306/bankproject?user=root&password=advancedSoftware2014";
+					//url = "jdbc:mysql://127.0.0.1:3306/bankproject?user=root";
 					Class.forName("com.mysql.jdbc.Driver").newInstance();
 					
 				}
