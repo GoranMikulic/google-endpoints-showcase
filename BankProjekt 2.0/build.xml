@@ -1,0 +1,5 @@
+<project>
+    <target name="jar">
+        <jar destfile="target/bankProject-endpoints.jar" basedir="war/WEB-INF/classes"/>
+    </target>
+</project>

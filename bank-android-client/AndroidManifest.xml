@@ -1,36 +1,64 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="de.hdm.bank_android_client">
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.hdm.bank_android_client"
+    android:versionCode="1"
+    android:versionName="1.0" >
 
-    <uses-sdk android:minSdkVersion="14" android:targetSdkVersion="19"/>
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-   <permission android:name="de.hdm.bank_android_client.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
-   <uses-permission android:name="de.hdm.bank_android_client.permission.C2D_MESSAGE"/>
-   <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
-   <uses-permission android:name="android.permission.WAKE_LOCK"/>
-   <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
-   <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
-   <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
-        <activity android:label="@string/app_name" android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+    <permission
+        android:name="de.hdm.bank_android_client.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
 
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
+    <uses-permission android:name="de.hdm.bank_android_client.permission.C2D_MESSAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="de.hdm.bank_android_client.MainActivity"
+            android:label="@string/app_name" >
         </activity>
-        <service android:name=".GCMIntentService"/>
-        <receiver android:name="com.google.android.gcm.GCMBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND">
+
+        <service android:name="de.hdm.bank_android_client.GCMIntentService" />
+
+        <receiver
+            android:name="com.google.android.gcm.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
             <intent-filter>
-                <action android:name="com.google.android.c2dm.intent.RECEIVE"/>
-                <category android:name="de.hdm.bank_android_client"/>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="de.hdm.bank_android_client" />
             </intent-filter>
             <intent-filter>
-                <action android:name="com.google.android.c2dm.intent.REGISTRATION"/>
-                <category android:name="de.hdm.bank_android_client"/>
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="de.hdm.bank_android_client" />
             </intent-filter>
         </receiver>
-    
-        <activity android:launchMode="singleTop" android:name=".RegisterActivity"/>
-</application>
+
+        <activity
+            android:name="de.hdm.bank_android_client.RegisterActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="de.hdm.bank_android_client.CustomerList"
+            android:label="@string/title_activity_customer_list" >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
 
 </manifest>
