@@ -18,7 +18,7 @@ public class EndpointsUtil {
 
 		builder.setApplicationName("bankadministrationapi");
 		Bankadministrationapi service = builder.build();
-
+		
 		return service;
 	}
 }

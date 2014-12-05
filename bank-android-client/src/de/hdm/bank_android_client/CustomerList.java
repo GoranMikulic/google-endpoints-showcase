@@ -2,12 +2,7 @@ package de.hdm.bank_android_client;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
-
-import com.appspot.skillful_octane_742.bankadministrationapi.Bankadministrationapi;
-import com.appspot.skillful_octane_742.bankadministrationapi.model.Customer;
-import com.appspot.skillful_octane_742.bankadministrationapi.model.CustomerCollection;
 
 import android.app.Activity;
 import android.os.AsyncTask;
@@ -18,12 +13,15 @@ import android.view.MenuItem;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.appspot.skillful_octane_742.bankadministrationapi.Bankadministrationapi;
+import com.appspot.skillful_octane_742.bankadministrationapi.model.Customer;
+import com.appspot.skillful_octane_742.bankadministrationapi.model.CustomerCollection;
+
 public class CustomerList extends Activity {
 
 	private ListView customerListView;
 	private ArrayAdapter<String> arrayAdapter;
-	// private String[] testArray = { "" };
-	private List testArray = new ArrayList<String>();;
+	private List<String> namesList = new ArrayList<String>();
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -31,30 +29,27 @@ public class CustomerList extends Activity {
 		setContentView(R.layout.activity_customer_list);
 
 		customerListView = (ListView) findViewById(R.id.listviewCustomers);
-
-		Bankadministrationapi service = EndpointsUtil.getEndpointsService();
 		
-		testArray.add("");
-		
-		arrayAdapter = new ArrayAdapter(this,
-				android.R.layout.simple_expandable_list_item_1, testArray);
+		arrayAdapter = new ArrayAdapter<String>(this,
+				android.R.layout.simple_expandable_list_item_1, namesList);
 		
 		customerListView.setAdapter(arrayAdapter);
 
 		new GetAllCustomersTask().execute();
 	}
-
+	
+	//Calling remote service in async task
 	private class GetAllCustomersTask extends
 			AsyncTask<String, Void, CustomerCollection> {
 
 		@Override
 		protected CustomerCollection doInBackground(String... params) {
 
-			// Getting Service Object
+			// Getting service object
 			Bankadministrationapi service = EndpointsUtil.getEndpointsService();
 
 			try {
-				// Calling Service
+				// Calling remote service
 				CustomerCollection customers = service.getAllCustomers()
 						.execute();
 

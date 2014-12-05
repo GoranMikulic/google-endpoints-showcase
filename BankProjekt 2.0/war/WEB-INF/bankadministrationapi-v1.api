@@ -1,0 +1,120 @@
+{
+  "extends" : "thirdParty.api",
+  "abstract" : false,
+  "root" : "https://skillful-octane-742.appspot.com/_ah/api",
+  "name" : "bankadministrationapi",
+  "version" : "v1",
+  "description" : "Bank Administration APIs",
+  "defaultVersion" : false,
+  "adapter" : {
+    "bns" : "https://skillful-octane-742.appspot.com/_ah/spi",
+    "deadline" : 65.0,
+    "type" : "lily"
+  },
+  "auth" : {
+    "allowCookieAuth" : false
+  },
+  "frontendLimits" : {
+    "unregisteredUserQps" : -1,
+    "unregisteredQps" : -1,
+    "unregisteredDaily" : -1,
+    "rules" : [ ]
+  },
+  "cacheControl" : {
+    "type" : "no-cache",
+    "maxAge" : 0
+  },
+  "methods" : {
+    "bankadministrationapi.getAccountById" : {
+      "path" : "account/{id}",
+      "httpMethod" : "GET",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ "1090984442246-4gc875lktk8b48nhglnnnovo12pvg6q2.apps.googleusercontent.com" ],
+      "clientIds" : [ "1090984442246-4gc875lktk8b48nhglnnnovo12pvg6q2.apps.googleusercontent.com" ],
+      "rosyMethod" : "de.hdm.thies.bankProjekt.server.BankAdministrationEndpoints.getAccountById",
+      "request" : {
+        "parameters" : {
+          "id" : {
+            "type" : "int32",
+            "required" : true
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "bankadministrationapi.getAllCustomers" : {
+      "path" : "customercollection",
+      "httpMethod" : "GET",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ "1090984442246-4gc875lktk8b48nhglnnnovo12pvg6q2.apps.googleusercontent.com" ],
+      "clientIds" : [ "1090984442246-4gc875lktk8b48nhglnnnovo12pvg6q2.apps.googleusercontent.com" ],
+      "rosyMethod" : "de.hdm.thies.bankProjekt.server.BankAdministrationEndpoints.getAllCustomers",
+      "request" : {
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    }
+  },
+  "descriptor" : {
+    "schemas" : {
+      "Account" : {
+        "id" : "Account",
+        "type" : "object",
+        "properties" : {
+          "id" : {
+            "type" : "integer"
+          },
+          "ownerID" : {
+            "type" : "integer"
+          }
+        }
+      },
+      "Customer" : {
+        "id" : "Customer",
+        "type" : "object",
+        "properties" : {
+          "id" : {
+            "type" : "integer"
+          },
+          "firstName" : {
+            "type" : "string"
+          },
+          "lastName" : {
+            "type" : "string"
+          }
+        }
+      },
+      "CustomerCollection" : {
+        "id" : "CustomerCollection",
+        "type" : "object",
+        "properties" : {
+          "items" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "Customer"
+            }
+          }
+        }
+      }
+    },
+    "methods" : {
+      "de.hdm.thies.bankProjekt.server.BankAdministrationEndpoints.getAccountById" : {
+        "response" : {
+          "$ref" : "Account"
+        }
+      },
+      "de.hdm.thies.bankProjekt.server.BankAdministrationEndpoints.getAllCustomers" : {
+        "response" : {
+          "$ref" : "CustomerCollection"
+        }
+      }
+    }
+  }
+}

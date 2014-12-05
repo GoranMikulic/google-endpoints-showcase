@@ -65,3 +65,7 @@ war/WEB-INF/classes/
 .svn/
 /.settings
 /.gwt
+
+*.log
+.metadata/
+.metadata/.bak_0.log
