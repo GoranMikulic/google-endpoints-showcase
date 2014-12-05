@@ -6,9 +6,12 @@
 <typeInfo handle="=BankProjekt 2.0/src&lt;de.hdm.thies.bankProjekt.client{Showcase.java[Showcase" modifiers="1025" timestamp="1414491091000"/>
 <typeInfo handle="=BankProjekt 2.0/src&lt;de.hdm.thies.bankProjekt.client{ClientsideSettings.java[ClientsideSettings" modifiers="1" timestamp="1385979364000"/>
 <typeInfo handle="=BankProjekt 2.0/src&lt;de.hdm.thies.bankProjekt.client{CreateAccountDemo.java[CreateAccountDemo" modifiers="1" timestamp="1385979364000"/>
+<typeInfo handle="=BankProjekt 2.0/src&lt;de.hdm.thies.bankProjekt.server{BankAdministrationImpl.java[BankAdministrationImpl" modifiers="1" timestamp="1414484666000"/>
 <typeInfo handle="=BankProjekt 2.0/src&lt;de.hdm.thies.bankProjekt.shared{BankAdministration.java[BankAdministration" modifiers="513" timestamp="1369991486000"/>
 <typeInfo handle="=BankProjekt 2.0/src&lt;de.hdm.thies.bankProjekt.shared{BankAdministrationAsync.java[BankAdministrationAsync" modifiers="513" timestamp="1369991566000"/>
-<typeInfo handle="=BankProjekt 2.0/src&lt;de.hdm.thies.bankProjekt.server.db{DBConnection.java[DBConnection" modifiers="1" timestamp="1414495768000"/>
-<typeInfo handle="=BankProjekt 2.0/src&lt;de.hdm.thies.bankProjekt.server{BankAdministrationEndpoints.java[BankAdministrationEndpoints" modifiers="1" timestamp="1415358612000"/>
-<typeInfo handle="=BankProjekt 2.0/src&lt;de.hdm.thies.bankProjekt.server{BankAdministrationImpl.java[BankAdministrationImpl" modifiers="1" timestamp="1414484666000"/>
+<typeInfo handle="=BankProjekt 2.0/src&lt;de.hdm.thies.bankProjekt.server.db{DBConnection.java[DBConnection" modifiers="1" timestamp="1417635307000"/>
+<typeInfo handle="=BankProjekt 2.0/\/Library\/Java\/JavaVirtualMachines\/jdk1.7.0_60.jdk\/Contents\/Home\/jre\/lib\/rt.jar&lt;com.sun.xml.internal.fastinfoset.stax.events(XMLConstants.class[XMLConstants" modifiers="33" timestamp="1399493098000"/>
+<typeInfo handle="=bank-android-client/\/Users\/mikugo\/Applications\/android-sdk-macosx\/platforms\/android-19\/android.jar&lt;android.util(JsonReader.class[JsonReader" modifiers="49" timestamp="1415394446000"/>
+<typeInfo handle="=BankProjekt 2.0/src&lt;de.hdm.thies.bankProjekt.server{BankAdministrationEndpoints.java[BankAdministrationEndpoints" modifiers="1" timestamp="1415531418000"/>
+<typeInfo handle="=bank-android-client/src&lt;de.hdm.bank_android_client{MainActivity.java[MainActivity" modifiers="1" timestamp="1417711211000"/>
 </typeInfoHistroy>
