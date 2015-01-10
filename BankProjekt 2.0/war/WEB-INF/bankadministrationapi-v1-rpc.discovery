@@ -1,6 +1,6 @@
 {
  "kind": "discovery#rpcDescription",
- "etag": "\"9mnLCPwbyZOHH18t8ExzO2gqgTk/l7PxBV1HAQPUYEvJl3g-Dqlz3yA\"",
+ "etag": "\"c05bU6zpvXPOpQakG5gG3IOJh8Y/DgBib0Taxi7rC1qG63eOvRV1qCM\"",
  "discoveryVersion": "v1",
  "id": "bankadministrationapi:v1",
  "name": "bankadministrationapi",
@@ -83,6 +83,28 @@
     }
    }
   },
+  "AccountCollection": {
+   "id": "AccountCollection",
+   "type": "object",
+   "properties": {
+    "items": {
+     "type": "array",
+     "items": {
+      "$ref": "Account"
+     }
+    }
+   }
+  },
+  "Balance": {
+   "id": "Balance",
+   "type": "object",
+   "properties": {
+    "balance": {
+     "type": "number",
+     "format": "float"
+    }
+   }
+  },
   "Customer": {
    "id": "Customer",
    "type": "object",
@@ -133,11 +155,51 @@
     "https://www.googleapis.com/auth/userinfo.email"
    ]
   },
+  "bankadministrationapi.getAccountsOf": {
+   "id": "bankadministrationapi.getAccountsOf",
+   "allowGet": true,
+   "parameters": {
+    "customerId": {
+     "type": "integer",
+     "required": true,
+     "format": "int32"
+    }
+   },
+   "parameterOrder": [
+    "customerId"
+   ],
+   "returns": {
+    "$ref": "AccountCollection"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
   "bankadministrationapi.getAllCustomers": {
    "id": "bankadministrationapi.getAllCustomers",
    "allowGet": true,
    "returns": {
     "$ref": "CustomerCollection"
+   },
+   "scopes": [
+    "https://www.googleapis.com/auth/userinfo.email"
+   ]
+  },
+  "bankadministrationapi.getBalanceOf": {
+   "id": "bankadministrationapi.getBalanceOf",
+   "allowGet": true,
+   "parameters": {
+    "accountId": {
+     "type": "integer",
+     "required": true,
+     "format": "int32"
+    }
+   },
+   "parameterOrder": [
+    "accountId"
+   ],
+   "returns": {
+    "$ref": "Balance"
    },
    "scopes": [
     "https://www.googleapis.com/auth/userinfo.email"

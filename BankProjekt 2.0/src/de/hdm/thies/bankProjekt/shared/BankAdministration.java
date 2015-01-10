@@ -265,4 +265,6 @@ public interface BankAdministration extends RemoteService {
    */
   public void delete(Transaction t) throws IllegalArgumentException;
 
+  public Balance getBalanceObjectOf(Account k) throws IllegalArgumentException;  
+
 }

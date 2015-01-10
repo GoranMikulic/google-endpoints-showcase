@@ -25,6 +25,27 @@
     "maxAge" : 0
   },
   "methods" : {
+    "bankadministrationapi.getAccountsOf" : {
+      "path" : "accountcollection/{customerId}",
+      "httpMethod" : "GET",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ "1090984442246-4gc875lktk8b48nhglnnnovo12pvg6q2.apps.googleusercontent.com" ],
+      "clientIds" : [ "1090984442246-4gc875lktk8b48nhglnnnovo12pvg6q2.apps.googleusercontent.com" ],
+      "rosyMethod" : "de.hdm.thies.bankProjekt.server.BankAdministrationEndpoints.getAccountsOf",
+      "request" : {
+        "parameters" : {
+          "customerId" : {
+            "type" : "int32",
+            "required" : true
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
     "bankadministrationapi.getAccountById" : {
       "path" : "account/{id}",
       "httpMethod" : "GET",
@@ -36,6 +57,27 @@
       "request" : {
         "parameters" : {
           "id" : {
+            "type" : "int32",
+            "required" : true
+          }
+        },
+        "body" : "empty"
+      },
+      "response" : {
+        "body" : "autoTemplate(backendResponse)"
+      }
+    },
+    "bankadministrationapi.getBalanceOf" : {
+      "path" : "balance/{accountId}",
+      "httpMethod" : "GET",
+      "authLevel" : "NONE",
+      "scopes" : [ "https://www.googleapis.com/auth/userinfo.email" ],
+      "audiences" : [ "1090984442246-4gc875lktk8b48nhglnnnovo12pvg6q2.apps.googleusercontent.com" ],
+      "clientIds" : [ "1090984442246-4gc875lktk8b48nhglnnnovo12pvg6q2.apps.googleusercontent.com" ],
+      "rosyMethod" : "de.hdm.thies.bankProjekt.server.BankAdministrationEndpoints.getBalanceOfAccount",
+      "request" : {
+        "parameters" : {
+          "accountId" : {
             "type" : "int32",
             "required" : true
           }
@@ -76,6 +118,28 @@
           }
         }
       },
+      "AccountCollection" : {
+        "id" : "AccountCollection",
+        "type" : "object",
+        "properties" : {
+          "items" : {
+            "type" : "array",
+            "items" : {
+              "$ref" : "Account"
+            }
+          }
+        }
+      },
+      "Balance" : {
+        "id" : "Balance",
+        "type" : "object",
+        "properties" : {
+          "balance" : {
+            "type" : "number",
+            "format" : "float"
+          }
+        }
+      },
       "Customer" : {
         "id" : "Customer",
         "type" : "object",
@@ -105,9 +169,19 @@
       }
     },
     "methods" : {
+      "de.hdm.thies.bankProjekt.server.BankAdministrationEndpoints.getAccountsOf" : {
+        "response" : {
+          "$ref" : "AccountCollection"
+        }
+      },
       "de.hdm.thies.bankProjekt.server.BankAdministrationEndpoints.getAccountById" : {
         "response" : {
           "$ref" : "Account"
+        }
+      },
+      "de.hdm.thies.bankProjekt.server.BankAdministrationEndpoints.getBalanceOfAccount" : {
+        "response" : {
+          "$ref" : "Balance"
         }
       },
       "de.hdm.thies.bankProjekt.server.BankAdministrationEndpoints.getAllCustomers" : {

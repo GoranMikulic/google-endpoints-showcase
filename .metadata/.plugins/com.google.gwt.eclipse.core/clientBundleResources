@@ -4,8 +4,8 @@
 <res path="cellTreeOpenItem.gif"/>
 <res path="de/hdm/thies/bankProjekt/client/gui/cellTreeClosedItem.gif"/>
 <res path="de/hdm/thies/bankProjekt/client/gui/cellTreeOpenItem.gif"/>
-<res path="de/hdm/thies/bankProjekt/client/gui/BankCellTree.css"/>
 <res path="cellTreeClosedItem.gif"/>
+<res path="de/hdm/thies/bankProjekt/client/gui/BankCellTree.css"/>
 <res path="BankCellTree.css"/>
 </deps>
 </index>

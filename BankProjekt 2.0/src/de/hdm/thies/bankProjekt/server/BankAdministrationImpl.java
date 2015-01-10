@@ -415,6 +415,14 @@ public class BankAdministrationImpl extends RemoteServiceServlet implements
 
 		return creditAmount - debitAmount;
 	}
+	
+	@Override
+	public Balance getBalanceObjectOf(Account k) throws IllegalArgumentException {
+		Balance balance = new Balance();
+		balance.setBalance(getBalanceOf(k));
+		
+		return balance;
+	} 
 
 	/**
 	 * <p>

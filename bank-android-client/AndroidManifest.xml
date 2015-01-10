@@ -51,7 +51,7 @@
             android:name="de.hdm.bank_android_client.RegisterActivity"
             android:launchMode="singleTop" />
         <activity
-            android:name="de.hdm.bank_android_client.CustomerList"
+            android:name="de.hdm.bank_android_client.CustomerListActivity"
             android:label="@string/title_activity_customer_list" >
             
             <intent-filter>
@@ -59,6 +59,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <activity
+            android:name="de.hdm.bank_android_client.AccountListActivity"
+            android:label="@string/title_activity_account_list" />
     </application>
 
 </manifest>
