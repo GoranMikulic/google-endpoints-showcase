@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp">
+    
+  <TextView 
+      android:id="@+id/listItemAccountId"
+      android:layout_width="wrap_content"
+      android:layout_height="fill_parent"
+      android:ellipsize="end" />
+  
+  <TextView 
+      android:id="@+id/listItemBalance"
+      android:layout_width="wrap_content"
+      android:layout_height="fill_parent"
+      android:layout_toRightOf="@id/listItemAccountId"
+      android:paddingLeft="5dp" />
+
+</RelativeLayout>

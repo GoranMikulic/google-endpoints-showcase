@@ -64,4 +64,6 @@ public interface BankAdministrationAsync {
 
   void createDeposit(Account customerAccount, float amount,
       AsyncCallback<Transaction> callback);
+
+  void getBalanceObjectOf(Account k, AsyncCallback<Balance> callback);
 }
