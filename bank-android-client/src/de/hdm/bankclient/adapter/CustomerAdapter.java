@@ -1,4 +1,4 @@
-package de.hdm.bank_android_client.adapter;
+package de.hdm.bankclient.adapter;
 
 import java.util.List;
 

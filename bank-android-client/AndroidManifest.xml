@@ -25,7 +25,7 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        <service android:name="de.hdm.bank_android_client.GCMIntentService" />
+        <service android:name="de.hdm.bankclient.GCMIntentService" />
 
         <receiver
             android:name="com.google.android.gcm.GCMBroadcastReceiver"
@@ -43,10 +43,10 @@
         </receiver>
 
         <activity
-            android:name="de.hdm.bank_android_client.RegisterActivity"
+            android:name="de.hdm.bankclient.RegisterActivity"
             android:launchMode="singleTop" />
         <activity
-            android:name="de.hdm.bank_android_client.CustomerListActivity"
+            android:name="de.hdm.bankclient.CustomerListActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -55,7 +55,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="de.hdm.bank_android_client.AccountListActivity"
+            android:name="de.hdm.bankclient.AccountListActivity"
             android:label="@string/title_activity_account_list" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"

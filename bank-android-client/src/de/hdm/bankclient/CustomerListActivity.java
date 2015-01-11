@@ -1,4 +1,4 @@
-package de.hdm.bank_android_client;
+package de.hdm.bankclient;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -20,9 +20,9 @@ import com.appspot.skillful_octane_742.bankadministrationapi.Bankadministrationa
 import com.appspot.skillful_octane_742.bankadministrationapi.model.Customer;
 import com.appspot.skillful_octane_742.bankadministrationapi.model.CustomerCollection;
 
-import de.hdm.bank_android_client.adapter.CustomerAdapter;
-
-import de.hdm.bank_android_client.util.EndpointsUtil;
+import de.hdm.bank_android_client.R;
+import de.hdm.bankclient.adapter.CustomerAdapter;
+import de.hdm.bankclient.util.EndpointsUtil;
 
 public class CustomerListActivity extends Activity {
 
@@ -91,7 +91,7 @@ public class CustomerListActivity extends Activity {
 				return customers;
 
 			} catch (IOException e) {
-				Log.e(EndpointsUtil.LOG, e.getMessage());
+				Log.e(EndpointsUtil.LOG, e.getMessage(), e);
 				return null;
 			}
 		}

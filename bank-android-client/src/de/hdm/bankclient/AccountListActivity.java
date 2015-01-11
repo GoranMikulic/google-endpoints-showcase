@@ -1,4 +1,4 @@
-package de.hdm.bank_android_client;
+package de.hdm.bankclient;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -19,8 +19,9 @@ import com.appspot.skillful_octane_742.bankadministrationapi.model.Account;
 import com.appspot.skillful_octane_742.bankadministrationapi.model.AccountCollection;
 import com.appspot.skillful_octane_742.bankadministrationapi.model.Customer;
 
-import de.hdm.bank_android_client.adapter.AccountAdapter;
-import de.hdm.bank_android_client.util.EndpointsUtil;
+import de.hdm.bank_android_client.R;
+import de.hdm.bankclient.adapter.AccountAdapter;
+import de.hdm.bankclient.util.EndpointsUtil;
 
 public class AccountListActivity extends Activity {
 
@@ -75,9 +76,9 @@ public class AccountListActivity extends Activity {
 				Intent upIntent = new Intent(this, CustomerListActivity.class);
 				navigateUpToFromChild(this, upIntent);
 				return true;
+			default:
+				return super.onOptionsItemSelected(item);
 		}
-
-		return super.onOptionsItemSelected(item);
 	}
 
 	private class GetAccountsOfCustomerTask extends
@@ -91,15 +92,10 @@ public class AccountListActivity extends Activity {
 			Bankadministrationapi service = EndpointsUtil.getEndpointsService();
 
 			try {
-
-				GetAccountsOf getAccountsOf = service.getAccountsOf(c.getId());
-
-				AccountCollection ac = getAccountsOf.execute();
-
-				return ac;
+				return service.getAccountsOf(c.getId()).execute(); 
 
 			} catch (IOException e) {
-				Log.e(EndpointsUtil.LOG, e.getMessage());
+				Log.e(EndpointsUtil.LOG, e.getMessage(), e);
 				return null;
 			}
 

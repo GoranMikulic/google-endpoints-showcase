@@ -1,4 +1,4 @@
-package de.hdm.bank_android_client.adapter;
+package de.hdm.bankclient.adapter;
 
 import java.io.IOException;
 import java.util.List;
@@ -7,6 +7,7 @@ import java.util.concurrent.ExecutionException;
 import android.app.Activity;
 import android.content.Context;
 import android.os.AsyncTask;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,7 +19,7 @@ import com.appspot.skillful_octane_742.bankadministrationapi.model.Account;
 import com.appspot.skillful_octane_742.bankadministrationapi.model.Balance;
 
 import de.hdm.bank_android_client.R;
-import de.hdm.bank_android_client.util.EndpointsUtil;
+import de.hdm.bankclient.util.EndpointsUtil;
 
 public class AccountAdapter extends ArrayAdapter<Account> {
 	
@@ -57,7 +58,7 @@ public class AccountAdapter extends ArrayAdapter<Account> {
 			Balance balance = test.get();
 			accountBalanceTextView.setText("" + balance.getBalance());
 		} catch (InterruptedException | ExecutionException e) {
-			e.printStackTrace();
+			Log.e(EndpointsUtil.LOG, e.getMessage(), e);
 		}
 		
 		return convertView;
@@ -73,10 +74,11 @@ public class AccountAdapter extends ArrayAdapter<Account> {
 			Bankadministrationapi service = EndpointsUtil.getEndpointsService();
 			
 			try {
-				Balance balance = service.getBalanceOf(a.getId()).execute();
-				return balance;
+				
+				return service.getBalanceOf(a.getId()).execute();
+				
 			} catch (IOException e) {
-				e.printStackTrace();
+				Log.e(EndpointsUtil.LOG, e.getMessage(), e);
 				return null;
 			}
 			
