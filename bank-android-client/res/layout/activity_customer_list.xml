@@ -9,9 +9,8 @@
     tools:context="de.hdm.bank_android_client.CustomerListActivity" >
 
     <ListView
-       android:id="@+id/listviewCustomers"
-       android:layout_width="fill_parent"
-       android:layout_height="wrap_content"
-       /> 
+        android:id="@+id/listviewCustomers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
 </RelativeLayout>

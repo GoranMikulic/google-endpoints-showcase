@@ -17,8 +17,8 @@ import com.appspot.skillful_octane_742.bankadministrationapi.Bankadministrationa
 import com.appspot.skillful_octane_742.bankadministrationapi.model.Account;
 import com.appspot.skillful_octane_742.bankadministrationapi.model.Balance;
 
-import de.hdm.bank_android_client.EndpointsUtil;
 import de.hdm.bank_android_client.R;
+import de.hdm.bank_android_client.util.EndpointsUtil;
 
 public class AccountAdapter extends ArrayAdapter<Account> {
 	
@@ -46,7 +46,7 @@ public class AccountAdapter extends ArrayAdapter<Account> {
 		Account account = accounts.get(position);
 		
 		TextView accountIdTv = (TextView) convertView.findViewById(R.id.listItemAccountId);
-		accountIdTv.setText("Account Id " + account.getId());
+		accountIdTv.setText("" + account.getId());
 		accountIdTv.setTag(account.getId());
 		
 		TextView accountBalanceTextView = (TextView) convertView.findViewById(R.id.listItemBalance);
@@ -55,7 +55,7 @@ public class AccountAdapter extends ArrayAdapter<Account> {
 		
 		try {
 			Balance balance = test.get();
-			accountBalanceTextView.setText("Balance " + balance.getBalance());
+			accountBalanceTextView.setText("" + balance.getBalance());
 		} catch (InterruptedException | ExecutionException e) {
 			e.printStackTrace();
 		}
