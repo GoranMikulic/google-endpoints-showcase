@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="14"
+        android:minSdkVersion="16"
         android:targetSdkVersion="19" />
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -25,11 +25,6 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-        <activity
-            android:name="de.hdm.bank_android_client.MainActivity"
-            android:label="@string/app_name" >
-        </activity>
-
         <service android:name="de.hdm.bank_android_client.GCMIntentService" />
 
         <receiver
@@ -52,17 +47,20 @@
             android:launchMode="singleTop" />
         <activity
             android:name="de.hdm.bank_android_client.CustomerListActivity"
-            android:label="@string/title_activity_customer_list" >
-            
+            android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
         <activity
             android:name="de.hdm.bank_android_client.AccountListActivity"
-            android:label="@string/title_activity_account_list" />
+            android:label="@string/title_activity_account_list" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="de.hdm.bank_android_client.CustomerListActivity" />
+        </activity>
     </application>
 
 </manifest>
