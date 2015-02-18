@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML">
+  <notation:Diagram xmi:id="_qMxAILeMEeSRrPW2GBH9ug" type="PapyrusUMLClassDiagram" name="CustomerListActivity" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_sGYNILeMEeSRrPW2GBH9ug" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_sGYNIreMEeSRrPW2GBH9ug" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_sGYNI7eMEeSRrPW2GBH9ug" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_sGYNJLeMEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_sGYNJbeMEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_sGYNJreMEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sGYNJ7eMEeSRrPW2GBH9ug"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_sGYNKLeMEeSRrPW2GBH9ug" type="7018">
+        <children xmi:type="notation:Shape" xmi:id="_3VlQgLeMEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmZdbeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_3VlQgbeMEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_3VlQgreMEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmZbbeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_3VlQg7eMEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_3Vl3kLeMEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmZcbeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_3Vl3kbeMEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_3Vl3kreMEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmY5LeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_3Vl3k7eMEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_3Vl3lLeMEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmY6LeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_3Vl3lbeMEeSRrPW2GBH9ug"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_sGYNKbeMEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_sGYNKreMEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_sGYNK7eMEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sGYNLLeMEeSRrPW2GBH9ug"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_sGY0MLeMEeSRrPW2GBH9ug" type="7019">
+        <children xmi:type="notation:Shape" xmi:id="_3VmeoLeMEeSRrPW2GBH9ug" type="3036">
+          <element xmi:type="uml:Interface" href="bank-android-client.uml#_cGmZcreMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_3VmeobeMEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_3VmeoreMEeSRrPW2GBH9ug" type="3036">
+          <element xmi:type="uml:Interface" href="bank-android-client.uml#_cGmY7LeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_3Vmeo7eMEeSRrPW2GBH9ug"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_sGY0MbeMEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_sGY0MreMEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_sGY0M7eMEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sGY0NLeMEeSRrPW2GBH9ug"/>
+      </children>
+      <element xmi:type="uml:Class" href="bank-android-client.uml#_cGmZc7eMEeSRrPW2GBH9ug"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sGYNIbeMEeSRrPW2GBH9ug" x="480" y="328"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_sGmPkLeMEeSRrPW2GBH9ug" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_sGm2oLeMEeSRrPW2GBH9ug" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_sGm2obeMEeSRrPW2GBH9ug" type="7017">
+        <children xmi:type="notation:Shape" xmi:id="_2OnocLeMEeSRrPW2GBH9ug" type="3012">
+          <element xmi:type="uml:Property" href="bank-android-client.uml#_cGlJqbeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2OnocbeMEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2OoPgLeMEeSRrPW2GBH9ug" type="3012">
+          <element xmi:type="uml:Property" href="bank-android-client.uml#_cGlJrLeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2OoPgbeMEeSRrPW2GBH9ug"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_sGm2oreMEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_sGm2o7eMEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_sGm2pLeMEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sGm2pbeMEeSRrPW2GBH9ug"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_sGm2preMEeSRrPW2GBH9ug" type="7018">
+        <children xmi:type="notation:Shape" xmi:id="_2OoPgreMEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGlJr7eMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2OoPg7eMEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2Oo2kLeMEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGlJtreMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2Oo2kbeMEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2Oo2kreMEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGlJvbeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2Oo2k7eMEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2Oo2lLeMEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGlJxLeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2Oo2lbeMEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2OpdoLeMEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmYnbeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2OpdobeMEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2OpdoreMEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmYobeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2Opdo7eMEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2OpdpLeMEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmYpbeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2OpdpbeMEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2OqEsLeMEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmYqbeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2OqEsbeMEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2OqEsreMEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmYrbeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2OqEs7eMEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2OqrwLeMEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmYrreMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2OqrwbeMEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2OqrwreMEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmYsreMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2Oqrw7eMEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2OqrxLeMEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmYs7eMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2OqrxbeMEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2OrS0LeMEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmYtLeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2OrS0beMEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2OrS0reMEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmYu7eMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2OrS07eMEeSRrPW2GBH9ug"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_sGm2p7eMEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_sGm2qLeMEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_sGm2qbeMEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sGm2qreMEeSRrPW2GBH9ug"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_sGm2q7eMEeSRrPW2GBH9ug" type="7019">
+        <children xmi:type="notation:Shape" xmi:id="_2OrS1LeMEeSRrPW2GBH9ug" type="3014">
+          <element xmi:type="uml:Class" href="bank-android-client.uml#_cGlJyLeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2OrS1beMEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_2Or54LeMEeSRrPW2GBH9ug" type="3014">
+          <element xmi:type="uml:Class" href="bank-android-client.uml#_cGlJ27eMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_2Or54beMEeSRrPW2GBH9ug"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_sGm2rLeMEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_sGm2rbeMEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_sGm2rreMEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sGm2r7eMEeSRrPW2GBH9ug"/>
+      </children>
+      <element xmi:type="uml:Class" href="bank-android-client.uml#_cGlJp7eMEeSRrPW2GBH9ug"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sGmPkbeMEeSRrPW2GBH9ug" x="49" y="134"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_0t2ZQLeMEeSRrPW2GBH9ug" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_0t2ZQreMEeSRrPW2GBH9ug" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_0t2ZQ7eMEeSRrPW2GBH9ug" type="7017">
+        <children xmi:type="notation:Shape" xmi:id="_30Z6gLeMEeSRrPW2GBH9ug" type="3012">
+          <element xmi:type="uml:Property" href="bank-android-client.uml#_cGlJIbeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_30Z6gbeMEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_30Z6greMEeSRrPW2GBH9ug" type="3012">
+          <element xmi:type="uml:Property" href="bank-android-client.uml#_cGlJJLeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_30Z6g7eMEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_30ahkLeMEeSRrPW2GBH9ug" type="3012">
+          <element xmi:type="uml:Property" href="bank-android-client.uml#_cGlJJ7eMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_30ahkbeMEeSRrPW2GBH9ug"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_0t2ZRLeMEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_0t2ZRbeMEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_0t2ZRreMEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0t2ZR7eMEeSRrPW2GBH9ug"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_0t2ZSLeMEeSRrPW2GBH9ug" type="7018">
+        <children xmi:type="notation:Shape" xmi:id="_30ahkreMEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGlJKreMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_30ahk7eMEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_30bIoLeMEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGlJNLeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_30bIobeMEeSRrPW2GBH9ug"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_0t2ZSbeMEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_0t2ZSreMEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_0t2ZS7eMEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0t2ZTLeMEeSRrPW2GBH9ug"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_0t3AULeMEeSRrPW2GBH9ug" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_0t3AUbeMEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_0t3AUreMEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_0t3AU7eMEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0t3AVLeMEeSRrPW2GBH9ug"/>
+      </children>
+      <element xmi:type="uml:Class" href="bank-android-client.uml#_cGlJH7eMEeSRrPW2GBH9ug"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0t2ZQbeMEeSRrPW2GBH9ug" x="461" y="126"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_6VORcLeMEeSRrPW2GBH9ug" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_6VORcreMEeSRrPW2GBH9ug" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_6VORc7eMEeSRrPW2GBH9ug" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_6VORdLeMEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_6VORdbeMEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_6VORdreMEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6VORd7eMEeSRrPW2GBH9ug"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_6VOReLeMEeSRrPW2GBH9ug" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_6VORebeMEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_6VORereMEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_6VORe7eMEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6VORfLeMEeSRrPW2GBH9ug"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_6VORfbeMEeSRrPW2GBH9ug" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_6VORfreMEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_6VORf7eMEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_6VORgLeMEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6VORgbeMEeSRrPW2GBH9ug"/>
+      </children>
+      <element xmi:type="uml:Class" href="bank-android-client.uml#_cGm94beMEeSRrPW2GBH9ug"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6VORcbeMEeSRrPW2GBH9ug" x="459" y="2"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_R5l6sLeNEeSRrPW2GBH9ug" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_R5l6sreNEeSRrPW2GBH9ug" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_R5mhwLeNEeSRrPW2GBH9ug" type="7017">
+        <children xmi:type="notation:Shape" xmi:id="_S_BRsLeNEeSRrPW2GBH9ug" type="3012">
+          <element xmi:type="uml:Property" href="bank-android-client.uml#_cGlv57eMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_S_BRsbeNEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_S_B4wLeNEeSRrPW2GBH9ug" type="3012">
+          <element xmi:type="uml:Property" href="bank-android-client.uml#_cGlv6reMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_S_B4wbeNEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_S_B4wreNEeSRrPW2GBH9ug" type="3012">
+          <element xmi:type="uml:Property" href="bank-android-client.uml#_cGlv7beMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_S_B4w7eNEeSRrPW2GBH9ug"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_R5mhwbeNEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_R5mhwreNEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_R5mhw7eNEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R5mhxLeNEeSRrPW2GBH9ug"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_R5mhxbeNEeSRrPW2GBH9ug" type="7018">
+        <children xmi:type="notation:Shape" xmi:id="_S_Cf0LeNEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGlv8LeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_S_Cf0beNEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_S_Cf0reNEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGlv9LeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_S_Cf07eNEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_S_Cf1LeNEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGlv-7eMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_S_Cf1beNEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_S_DG4LeNEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGlv_7eMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_S_DG4beNEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_S_DG4reNEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGlwBreMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_S_DG47eNEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_S_DG5LeNEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGlwCreMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_S_DG5beNEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_S_Dt8LeNEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGlwEbeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_S_Dt8beNEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_S_Dt8reNEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGlwG7eMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_S_Dt87eNEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_S_EVALeNEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGlwH7eMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_S_EVAbeNEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_S_EVAreNEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmX37eMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_S_EVA7eNEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_S_E8ELeNEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmX5reMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_S_E8EbeNEeSRrPW2GBH9ug"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_R5mhxreNEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_R5mhx7eNEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_R5mhyLeNEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R5mhybeNEeSRrPW2GBH9ug"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_R5mhyreNEeSRrPW2GBH9ug" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_R5mhy7eNEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_R5mhzLeNEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_R5mhzbeNEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R5mhzreNEeSRrPW2GBH9ug"/>
+      </children>
+      <element xmi:type="uml:Class" href="bank-android-client.uml#_cGlv5beMEeSRrPW2GBH9ug"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_R5l6sbeNEeSRrPW2GBH9ug" x="1012" y="70"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_i9ij4LeNEeSRrPW2GBH9ug" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_i9jK8LeNEeSRrPW2GBH9ug" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_i9jK8beNEeSRrPW2GBH9ug" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_i9jK8reNEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_i9jK87eNEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_i9jK9LeNEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i9jK9beNEeSRrPW2GBH9ug"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_i9jK9reNEeSRrPW2GBH9ug" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_i9jK97eNEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_i9jK-LeNEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_i9jK-beNEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i9jK-reNEeSRrPW2GBH9ug"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_i9jK-7eNEeSRrPW2GBH9ug" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_i9jK_LeNEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_i9jK_beNEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_i9jK_reNEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i9jK_7eNEeSRrPW2GBH9ug"/>
+      </children>
+      <element xmi:type="uml:Class" href="bank-android-client.uml#_cGmYlreMEeSRrPW2GBH9ug"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i9ij4beNEeSRrPW2GBH9ug" x="160" y="-2"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_qMxAIbeMEeSRrPW2GBH9ug" name="diagram_compatibility_version" stringValue="1.0.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_qMxAIreMEeSRrPW2GBH9ug"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_qMxAI7eMEeSRrPW2GBH9ug">
+      <owner xmi:type="uml:Package" href="bank-android-client.uml#_pNbqELeMEeSRrPW2GBH9ug"/>
+    </styles>
+    <element xmi:type="uml:Package" href="bank-android-client.uml#_pNbqELeMEeSRrPW2GBH9ug"/>
+    <edges xmi:type="notation:Connector" xmi:id="_sGx1wLeMEeSRrPW2GBH9ug" type="4001" source="_sGYNILeMEeSRrPW2GBH9ug" target="_sGmPkLeMEeSRrPW2GBH9ug">
+      <children xmi:type="notation:DecorationNode" xmi:id="_sGyc0LeMEeSRrPW2GBH9ug" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sGyc0beMEeSRrPW2GBH9ug" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_sGyc0reMEeSRrPW2GBH9ug" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sGyc07eMEeSRrPW2GBH9ug" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_sGyc1LeMEeSRrPW2GBH9ug" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sGyc1beMEeSRrPW2GBH9ug" x="27" y="-19"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_sGzD4LeMEeSRrPW2GBH9ug" visible="false" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sGzD4beMEeSRrPW2GBH9ug" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_sGzD4reMEeSRrPW2GBH9ug" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sGzD47eMEeSRrPW2GBH9ug" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_sGzD5LeMEeSRrPW2GBH9ug" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_sGzD5beMEeSRrPW2GBH9ug" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_sGx1wbeMEeSRrPW2GBH9ug"/>
+      <element xmi:type="uml:Association" href="bank-android-client.uml#_cGlv1reMEeSRrPW2GBH9ug"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_sGx1wreMEeSRrPW2GBH9ug" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sYdboLeMEeSRrPW2GBH9ug" id="(0.0,0.5780346820809249)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sYdbobeMEeSRrPW2GBH9ug" id="(1.0,0.84)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_0uB_cLeMEeSRrPW2GBH9ug" type="4001" source="_0t2ZQLeMEeSRrPW2GBH9ug" target="_sGmPkLeMEeSRrPW2GBH9ug">
+      <children xmi:type="notation:DecorationNode" xmi:id="_0uB_c7eMEeSRrPW2GBH9ug" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_0uB_dLeMEeSRrPW2GBH9ug" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_0uB_dbeMEeSRrPW2GBH9ug" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_0uCmgLeMEeSRrPW2GBH9ug" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_0uCmgbeMEeSRrPW2GBH9ug" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_0uCmgreMEeSRrPW2GBH9ug" x="16" y="-15"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_0uCmg7eMEeSRrPW2GBH9ug" visible="false" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_0uCmhLeMEeSRrPW2GBH9ug" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_0uCmhbeMEeSRrPW2GBH9ug" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_0uCmhreMEeSRrPW2GBH9ug" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_0uDNkLeMEeSRrPW2GBH9ug" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_0uDNkbeMEeSRrPW2GBH9ug" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_0uB_cbeMEeSRrPW2GBH9ug"/>
+      <element xmi:type="uml:Association" href="bank-android-client.uml#_cGlv2LeMEeSRrPW2GBH9ug"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_0uB_creMEeSRrPW2GBH9ug" points="[0, 0, -596, -393]$[541, 356, -55, -37]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1MpOELeMEeSRrPW2GBH9ug" id="(0.0,0.8609271523178808)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_1MpOEbeMEeSRrPW2GBH9ug" id="(1.0,0.3485714285714286)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_6VdiALeMEeSRrPW2GBH9ug" type="4002" source="_0t2ZQLeMEeSRrPW2GBH9ug" target="_6VORcLeMEeSRrPW2GBH9ug">
+      <children xmi:type="notation:DecorationNode" xmi:id="_6VdiA7eMEeSRrPW2GBH9ug" type="6007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_6VdiBLeMEeSRrPW2GBH9ug" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_6VdiAbeMEeSRrPW2GBH9ug"/>
+      <element xmi:type="uml:Generalization" href="bank-android-client.uml#_cGlJILeMEeSRrPW2GBH9ug"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_6VdiAreMEeSRrPW2GBH9ug" points="[-218, -54, 599, 147]$[-817, -201, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6qpH0LeMEeSRrPW2GBH9ug" id="(0.481651376146789,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_6qpu4LeMEeSRrPW2GBH9ug" id="(0.43983402489626555,0.83)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_R50kMLeNEeSRrPW2GBH9ug" type="4001" source="_R5l6sLeNEeSRrPW2GBH9ug" target="_0t2ZQLeMEeSRrPW2GBH9ug">
+      <children xmi:type="notation:DecorationNode" xmi:id="_R51LQLeNEeSRrPW2GBH9ug" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_R51LQbeNEeSRrPW2GBH9ug" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_R51yULeNEeSRrPW2GBH9ug" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_R51yUbeNEeSRrPW2GBH9ug" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_R51yUreNEeSRrPW2GBH9ug" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_R51yU7eNEeSRrPW2GBH9ug" x="16" y="-16"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_R52ZYLeNEeSRrPW2GBH9ug" visible="false" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_R52ZYbeNEeSRrPW2GBH9ug" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_R52ZYreNEeSRrPW2GBH9ug" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_R52ZY7eNEeSRrPW2GBH9ug" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_R52ZZLeNEeSRrPW2GBH9ug" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_R52ZZbeNEeSRrPW2GBH9ug" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_R50kMbeNEeSRrPW2GBH9ug"/>
+      <element xmi:type="uml:Association" href="bank-android-client.uml#_cGlJireMEeSRrPW2GBH9ug"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_R50kMreNEeSRrPW2GBH9ug" points="[0, 0, -679, -201]$[461, 136, -218, -65]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SZfiwLeNEeSRrPW2GBH9ug" id="(0.0,0.4440677966101695)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SZgJ0LeNEeSRrPW2GBH9ug" id="(1.0,0.4966887417218543)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_i9ybgLeNEeSRrPW2GBH9ug" type="4002" source="_sGmPkLeMEeSRrPW2GBH9ug" target="_i9ij4LeNEeSRrPW2GBH9ug">
+      <children xmi:type="notation:DecorationNode" xmi:id="_i9zCkLeNEeSRrPW2GBH9ug" type="6007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_i9zCkbeNEeSRrPW2GBH9ug" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_i9ybgbeNEeSRrPW2GBH9ug"/>
+      <element xmi:type="uml:Generalization" href="bank-android-client.uml#_cGlJqLeMEeSRrPW2GBH9ug"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_i9ybgreNEeSRrPW2GBH9ug" points="[-113, -175, 86, 134]$[-199, -309, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jRI1ULeNEeSRrPW2GBH9ug" id="(0.5233333333333333,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_jRJcYLeNEeSRrPW2GBH9ug" id="(0.46,1.0)"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_FpFV4LeOEeSRrPW2GBH9ug" type="PapyrusUMLClassDiagram" name="AccountListActivity" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_IpUzwLeOEeSRrPW2GBH9ug" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_IpUzwreOEeSRrPW2GBH9ug" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_IpUzw7eOEeSRrPW2GBH9ug" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_IpUzxLeOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_IpUzxbeOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_IpUzxreOEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IpUzx7eOEeSRrPW2GBH9ug"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_IpUzyLeOEeSRrPW2GBH9ug" type="7018">
+        <children xmi:type="notation:Shape" xmi:id="_X54XQLePEeSYY5EFXYqqJw" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmZdbeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_X54-ULePEeSYY5EFXYqqJw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_X55lYLePEeSYY5EFXYqqJw" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmZbbeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_X55lYbePEeSYY5EFXYqqJw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_X55lYrePEeSYY5EFXYqqJw" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmZcbeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_X55lY7ePEeSYY5EFXYqqJw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_X56McLePEeSYY5EFXYqqJw" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmY5LeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_X56McbePEeSYY5EFXYqqJw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_X56zgLePEeSYY5EFXYqqJw" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmY6LeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_X56zgbePEeSYY5EFXYqqJw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_IpUzybeOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_IpUzyreOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_IpUzy7eOEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IpUzzLeOEeSRrPW2GBH9ug"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_IpVa0LeOEeSRrPW2GBH9ug" type="7019">
+        <children xmi:type="notation:Shape" xmi:id="_X57akLePEeSYY5EFXYqqJw" type="3036">
+          <element xmi:type="uml:Interface" href="bank-android-client.uml#_cGmZcreMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_X57akbePEeSYY5EFXYqqJw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_X57akrePEeSYY5EFXYqqJw" type="3036">
+          <element xmi:type="uml:Interface" href="bank-android-client.uml#_cGmY7LeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_X57ak7ePEeSYY5EFXYqqJw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_IpVa0beOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_IpVa0reOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_IpVa07eOEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IpVa1LeOEeSRrPW2GBH9ug"/>
+      </children>
+      <element xmi:type="uml:Class" href="bank-android-client.uml#_cGmZc7eMEeSRrPW2GBH9ug"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IpUzwbeOEeSRrPW2GBH9ug" x="489" y="353"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_IpiPILeOEeSRrPW2GBH9ug" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_IpiPIreOEeSRrPW2GBH9ug" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_IpiPI7eOEeSRrPW2GBH9ug" type="7017">
+        <children xmi:type="notation:Shape" xmi:id="_RQO_MLeOEeSRrPW2GBH9ug" type="3012">
+          <element xmi:type="uml:Property" href="bank-android-client.uml#_cGlJ7reMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_RQO_MbeOEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_RQPmQLeOEeSRrPW2GBH9ug" type="3012">
+          <element xmi:type="uml:Property" href="bank-android-client.uml#_cGlJ8beMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_RQPmQbeOEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_RQQNULeOEeSRrPW2GBH9ug" type="3012">
+          <element xmi:type="uml:Property" href="bank-android-client.uml#_cGlJ9LeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_RQQNUbeOEeSRrPW2GBH9ug"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_IpiPJLeOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_IpiPJbeOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_IpiPJreOEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IpiPJ7eOEeSRrPW2GBH9ug"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_IpiPKLeOEeSRrPW2GBH9ug" type="7018">
+        <children xmi:type="notation:Shape" xmi:id="_RQQNUreOEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGlJ97eMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_RQQNU7eOEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_RQQNVLeOEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGlJ_reMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_RQQNVbeOEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_RQQ0YLeOEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGlKBbeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_RQQ0YbeOEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_RQQ0YreOEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGlKDLeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_RQQ0Y7eOEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_RQRbcLeOEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmYnbeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_RQRbcbeOEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_RQRbcreOEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmYobeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_RQRbc7eOEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_RQSCgLeOEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmYpbeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_RQSCgbeOEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_RQSCgreOEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmYqbeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_RQSCg7eOEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_RQSpkLeOEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmYrbeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_RQSpkbeOEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_RQSpkreOEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmYrreMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_RQSpk7eOEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_RQSplLeOEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmYsreMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_RQSplbeOEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_RQTQoLeOEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmYs7eMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_RQTQobeOEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_RQTQoreOEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmYtLeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_RQTQo7eOEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_RQT3sLeOEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmYu7eMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_RQT3sbeOEeSRrPW2GBH9ug"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_IpiPKbeOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_IpiPKreOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_IpiPK7eOEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IpiPLLeOEeSRrPW2GBH9ug"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_IpiPLbeOEeSRrPW2GBH9ug" type="7019">
+        <children xmi:type="notation:Shape" xmi:id="_RQT3sreOEeSRrPW2GBH9ug" type="3014">
+          <element xmi:type="uml:Class" href="bank-android-client.uml#_cGlKELeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_RQT3s7eOEeSRrPW2GBH9ug"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_IpiPLreOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_IpiPL7eOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_IpiPMLeOEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IpiPMbeOEeSRrPW2GBH9ug"/>
+      </children>
+      <element xmi:type="uml:Class" href="bank-android-client.uml#_cGlJ7LeMEeSRrPW2GBH9ug"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IpiPIbeOEeSRrPW2GBH9ug" x="42" y="231"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_J-JRoLeOEeSRrPW2GBH9ug" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_J-JRoreOEeSRrPW2GBH9ug" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_J-JRo7eOEeSRrPW2GBH9ug" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_J-JRpLeOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_J-JRpbeOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_J-JRpreOEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J-JRp7eOEeSRrPW2GBH9ug"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_J-JRqLeOEeSRrPW2GBH9ug" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_J-JRqbeOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_J-JRqreOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_J-JRq7eOEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J-JRrLeOEeSRrPW2GBH9ug"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_J-JRrbeOEeSRrPW2GBH9ug" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_J-JRrreOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_J-JRr7eOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_J-JRsLeOEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J-JRsbeOEeSRrPW2GBH9ug"/>
+      </children>
+      <element xmi:type="uml:Class" href="bank-android-client.uml#_cGmYlreMEeSRrPW2GBH9ug"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_J-JRobeOEeSRrPW2GBH9ug" x="145" y="57"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_MOGiELeOEeSRrPW2GBH9ug" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_MOHJILeOEeSRrPW2GBH9ug" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_MOHJIbeOEeSRrPW2GBH9ug" type="7017">
+        <children xmi:type="notation:Shape" xmi:id="_WMNJ8LeOEeSRrPW2GBH9ug" type="3012">
+          <element xmi:type="uml:Property" href="bank-android-client.uml#_cGlJQ7eMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_WMNJ8beOEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_WMNJ8reOEeSRrPW2GBH9ug" type="3012">
+          <element xmi:type="uml:Property" href="bank-android-client.uml#_cGlJRreMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_WMNJ87eOEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_WMNxALeOEeSRrPW2GBH9ug" type="3012">
+          <element xmi:type="uml:Property" href="bank-android-client.uml#_cGlJSbeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_WMNxAbeOEeSRrPW2GBH9ug"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MOHJIreOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_MOHJI7eOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_MOHJJLeOEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MOHJJbeOEeSRrPW2GBH9ug"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_MOHJJreOEeSRrPW2GBH9ug" type="7018">
+        <children xmi:type="notation:Shape" xmi:id="_WMNxAreOEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGlJTLeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_WMNxA7eOEeSRrPW2GBH9ug"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_WMNxBLeOEeSRrPW2GBH9ug" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGlJVreMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_WMNxBbeOEeSRrPW2GBH9ug"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MOHJJ7eOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_MOHJKLeOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_MOHJKbeOEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MOHJKreOEeSRrPW2GBH9ug"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_MOHJK7eOEeSRrPW2GBH9ug" type="7019">
+        <children xmi:type="notation:Shape" xmi:id="_WMOYELeOEeSRrPW2GBH9ug" type="3014">
+          <element xmi:type="uml:Class" href="bank-android-client.uml#_cGlJY7eMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_WMOYEbeOEeSRrPW2GBH9ug"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_MOHJLLeOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_MOHJLbeOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_MOHJLreOEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MOHJL7eOEeSRrPW2GBH9ug"/>
+      </children>
+      <element xmi:type="uml:Class" href="bank-android-client.uml#_cGlJQbeMEeSRrPW2GBH9ug"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MOGiEbeOEeSRrPW2GBH9ug" x="487" y="185"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_PkJ34LeOEeSRrPW2GBH9ug" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_PkJ34reOEeSRrPW2GBH9ug" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_PkJ347eOEeSRrPW2GBH9ug" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_PkJ35LeOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_PkJ35beOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_PkJ35reOEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PkJ357eOEeSRrPW2GBH9ug"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_PkJ36LeOEeSRrPW2GBH9ug" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_PkJ36beOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_PkJ36reOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_PkJ367eOEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PkJ37LeOEeSRrPW2GBH9ug"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_PkJ37beOEeSRrPW2GBH9ug" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_PkJ37reOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_PkJ377eOEeSRrPW2GBH9ug"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_PkJ38LeOEeSRrPW2GBH9ug"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PkJ38beOEeSRrPW2GBH9ug"/>
+      </children>
+      <element xmi:type="uml:Class" href="bank-android-client.uml#_cGm95LeMEeSRrPW2GBH9ug"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PkJ34beOEeSRrPW2GBH9ug" x="426" y="54"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_u1qL8LeOEeSYY5EFXYqqJw" type="2008">
+      <children xmi:type="notation:DecorationNode" xmi:id="_u1vEcLeOEeSYY5EFXYqqJw" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_u1vEcbeOEeSYY5EFXYqqJw" type="7017">
+        <children xmi:type="notation:Shape" xmi:id="_wDAv4LeOEeSYY5EFXYqqJw" type="3012">
+          <element xmi:type="uml:Property" href="bank-android-client.uml#_cGlwXreMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_wDAv4beOEeSYY5EFXYqqJw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_wDBW8LeOEeSYY5EFXYqqJw" type="3012">
+          <element xmi:type="uml:Property" href="bank-android-client.uml#_cGlwYbeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_wDBW8beOEeSYY5EFXYqqJw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_u1vEcreOEeSYY5EFXYqqJw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_u1vEc7eOEeSYY5EFXYqqJw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_u1vEdLeOEeSYY5EFXYqqJw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u1vEdbeOEeSYY5EFXYqqJw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_u1vrgLeOEeSYY5EFXYqqJw" type="7018">
+        <children xmi:type="notation:Shape" xmi:id="_wDB-ALeOEeSYY5EFXYqqJw" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGlwZLeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_wDB-AbeOEeSYY5EFXYqqJw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_wDClELeOEeSYY5EFXYqqJw" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGlwaLeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_wDClEbeOEeSYY5EFXYqqJw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_wDDMILeOEeSYY5EFXYqqJw" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGlwb7eMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_wDDMIbeOEeSYY5EFXYqqJw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_wDDzMLeOEeSYY5EFXYqqJw" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGlwc7eMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_wDDzMbeOEeSYY5EFXYqqJw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_wDDzMreOEeSYY5EFXYqqJw" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGlwereMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_wDDzM7eOEeSYY5EFXYqqJw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_wDFBULeOEeSYY5EFXYqqJw" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGlwhLeMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_wDFBUbeOEeSYY5EFXYqqJw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_wDFoYLeOEeSYY5EFXYqqJw" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmX37eMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_wDFoYbeOEeSYY5EFXYqqJw"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_wDGPcLeOEeSYY5EFXYqqJw" type="3013">
+          <element xmi:type="uml:Operation" href="bank-android-client.uml#_cGmX5reMEeSRrPW2GBH9ug"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_wDGPcbeOEeSYY5EFXYqqJw"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_u1vrgbeOEeSYY5EFXYqqJw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_u1vrgreOEeSYY5EFXYqqJw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_u1vrg7eOEeSYY5EFXYqqJw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u1vrhLeOEeSYY5EFXYqqJw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_u1vrhbeOEeSYY5EFXYqqJw" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_u1vrhreOEeSYY5EFXYqqJw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_u1vrh7eOEeSYY5EFXYqqJw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_u1vriLeOEeSYY5EFXYqqJw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u1vribeOEeSYY5EFXYqqJw"/>
+      </children>
+      <element xmi:type="uml:Class" href="bank-android-client.uml#_cGlwXLeMEeSRrPW2GBH9ug"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_u1qL8beOEeSYY5EFXYqqJw" x="1018" y="139"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_FpFV4beOEeSRrPW2GBH9ug" name="diagram_compatibility_version" stringValue="1.0.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_FpFV4reOEeSRrPW2GBH9ug"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_FpFV47eOEeSRrPW2GBH9ug">
+      <owner xmi:type="uml:Package" href="bank-android-client.uml#_pNbqELeMEeSRrPW2GBH9ug"/>
+    </styles>
+    <element xmi:type="uml:Package" href="bank-android-client.uml#_pNbqELeMEeSRrPW2GBH9ug"/>
+    <edges xmi:type="notation:Connector" xmi:id="_Ipt1ULeOEeSRrPW2GBH9ug" type="4001" source="_IpUzwLeOEeSRrPW2GBH9ug" target="_IpiPILeOEeSRrPW2GBH9ug">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Ipt1U7eOEeSRrPW2GBH9ug" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Ipt1VLeOEeSRrPW2GBH9ug" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_IpucYLeOEeSRrPW2GBH9ug" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_IpucYbeOEeSRrPW2GBH9ug" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_IpucYreOEeSRrPW2GBH9ug" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_IpucY7eOEeSRrPW2GBH9ug" x="31" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_IpucZLeOEeSRrPW2GBH9ug" visible="false" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_IpucZbeOEeSRrPW2GBH9ug" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_IpvDcLeOEeSRrPW2GBH9ug" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_IpvDcbeOEeSRrPW2GBH9ug" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_IpvDcreOEeSRrPW2GBH9ug" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_IpvDc7eOEeSRrPW2GBH9ug" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Ipt1UbeOEeSRrPW2GBH9ug"/>
+      <element xmi:type="uml:Association" href="bank-android-client.uml#_cGlv2reMEeSRrPW2GBH9ug"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ipt1UreOEeSRrPW2GBH9ug" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_I-iOwLeOEeSRrPW2GBH9ug" id="(0.0,0.53)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_I-i10LeOEeSRrPW2GBH9ug" id="(0.99,0.6171428571428571)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_J-XUELeOEeSRrPW2GBH9ug" type="4002" source="_IpiPILeOEeSRrPW2GBH9ug" target="_J-JRoLeOEeSRrPW2GBH9ug">
+      <children xmi:type="notation:DecorationNode" xmi:id="_J-X7ILeOEeSRrPW2GBH9ug" type="6007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_J-X7IbeOEeSRrPW2GBH9ug" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_J-XUEbeOEeSRrPW2GBH9ug"/>
+      <element xmi:type="uml:Generalization" href="bank-android-client.uml#_cGlJ7beMEeSRrPW2GBH9ug"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_J-XUEreOEeSRrPW2GBH9ug" points="[-36, -50, 152, 210]$[-188, -260, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KS1vQLeOEeSRrPW2GBH9ug" id="(0.51,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KS1vQbeOEeSRrPW2GBH9ug" id="(0.5,1.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_MOVyoLeOEeSRrPW2GBH9ug" type="4001" source="_MOGiELeOEeSRrPW2GBH9ug" target="_IpiPILeOEeSRrPW2GBH9ug">
+      <children xmi:type="notation:DecorationNode" xmi:id="_MOVyo7eOEeSRrPW2GBH9ug" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MOVypLeOEeSRrPW2GBH9ug" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_MOWZsLeOEeSRrPW2GBH9ug" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MOWZsbeOEeSRrPW2GBH9ug" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_MOWZsreOEeSRrPW2GBH9ug" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MOWZs7eOEeSRrPW2GBH9ug" x="25" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_MOWZtLeOEeSRrPW2GBH9ug" visible="false" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MOWZtbeOEeSRrPW2GBH9ug" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_MOWZtreOEeSRrPW2GBH9ug" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MOXAwLeOEeSRrPW2GBH9ug" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_MOXAwbeOEeSRrPW2GBH9ug" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_MOXAwreOEeSRrPW2GBH9ug" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_MOVyobeOEeSRrPW2GBH9ug"/>
+      <element xmi:type="uml:Association" href="bank-android-client.uml#_cGlv3reMEeSRrPW2GBH9ug"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MOVyoreOEeSRrPW2GBH9ug" points="[0, 0, -188, -260]$[152, 210, -36, -50]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MktEMLeOEeSRrPW2GBH9ug" id="(0.0,0.7088607594936709)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MktEMbeOEeSRrPW2GBH9ug" id="(1.0,0.18857142857142858)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_PkWFILeOEeSRrPW2GBH9ug" type="4002" source="_MOGiELeOEeSRrPW2GBH9ug" target="_PkJ34LeOEeSRrPW2GBH9ug">
+      <children xmi:type="notation:DecorationNode" xmi:id="_PkWFI7eOEeSRrPW2GBH9ug" type="6007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_PkWsMLeOEeSRrPW2GBH9ug" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_PkWFIbeOEeSRrPW2GBH9ug"/>
+      <element xmi:type="uml:Generalization" href="bank-android-client.uml#_cGlJQreMEeSRrPW2GBH9ug"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_PkWFIreOEeSRrPW2GBH9ug" points="[-50, -16, 361, 115]$[-411, -131, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QFBJQLeOEeSRrPW2GBH9ug" id="(0.3829787234042553,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QFBwULeOEeSRrPW2GBH9ug" id="(0.47578947368421054,0.9)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_u7QdoLeOEeSYY5EFXYqqJw" type="4001" source="_u1qL8LeOEeSYY5EFXYqqJw" target="_MOGiELeOEeSRrPW2GBH9ug">
+      <children xmi:type="notation:DecorationNode" xmi:id="_u7REsLeOEeSYY5EFXYqqJw" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_u7REsbeOEeSYY5EFXYqqJw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_u7RrwLeOEeSYY5EFXYqqJw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_u7RrwbeOEeSYY5EFXYqqJw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_u7SS0LeOEeSYY5EFXYqqJw" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_u7SS0beOEeSYY5EFXYqqJw" x="14" y="-22"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_u7S54LeOEeSYY5EFXYqqJw" visible="false" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_u7S54beOEeSYY5EFXYqqJw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_u7Tg8LeOEeSYY5EFXYqqJw" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_u7Tg8beOEeSYY5EFXYqqJw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_u7UIALeOEeSYY5EFXYqqJw" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_u7UIAbeOEeSYY5EFXYqqJw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_u7QdobeOEeSYY5EFXYqqJw"/>
+      <element xmi:type="uml:Association" href="bank-android-client.uml#_cGlJjreMEeSRrPW2GBH9ug"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_u7QdoreOEeSYY5EFXYqqJw" points="[0, 0, -698, -264]$[489, 185, -209, -79]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vWXFQLeOEeSYY5EFXYqqJw" id="(0.0,0.5064935064935064)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vWXsULeOEeSYY5EFXYqqJw" id="(1.0,0.44936708860759494)"/>
+    </edges>
+  </notation:Diagram>
+</xmi:XMI>

@@ -14,7 +14,6 @@ import android.view.MenuItem;
 import android.widget.ListView;
 
 import com.appspot.skillful_octane_742.bankadministrationapi.Bankadministrationapi;
-import com.appspot.skillful_octane_742.bankadministrationapi.Bankadministrationapi.GetAccountsOf;
 import com.appspot.skillful_octane_742.bankadministrationapi.model.Account;
 import com.appspot.skillful_octane_742.bankadministrationapi.model.AccountCollection;
 import com.appspot.skillful_octane_742.bankadministrationapi.model.Customer;

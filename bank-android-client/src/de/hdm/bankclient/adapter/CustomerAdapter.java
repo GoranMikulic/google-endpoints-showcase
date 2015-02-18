@@ -15,9 +15,9 @@ import android.widget.TextView;
 
 public class CustomerAdapter extends ArrayAdapter<Customer> {
 
-	Context context;
-    int layoutResourceId;
-    List<Customer> customers;	
+	private Context context;
+    private int layoutResourceId;
+    private List<Customer> customers;	
 	
 	public CustomerAdapter(Context context, int layoutResourceId, List<Customer> objects) {
 		super(context, layoutResourceId, objects);

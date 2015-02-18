@@ -30,7 +30,8 @@ public class EndpointsUtil {
 
 		// this should be removed in production - only for local testing
 		// builder.setRootUrl("http://localhost:8888/_ah/api");
-		builder.setRootUrl("http://192.168.2.104:8888/_ah/api");
+		//builder.setRootUrl("http://10.0.2.2:8888/_ah/api");
+		builder.setRootUrl("http://192.168.56.1:8888/_ah/api");
 		builder.setApplicationName("bankadministrationapi");
 		
 		return builder.build();
