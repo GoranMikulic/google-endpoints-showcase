@@ -66,23 +66,31 @@ public class AccountListActivity extends Activity {
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
-		
+
 		switch (item.getItemId()) {
-			case R.id.action_refresh_accounts:
-				refreshAccounts();
-				return true;
-			case android.R.id.home:
-				Intent upIntent = new Intent(this, CustomerListActivity.class);
-				navigateUpToFromChild(this, upIntent);
-				return true;
-			default:
-				return super.onOptionsItemSelected(item);
+		case R.id.action_refresh_accounts:
+			refreshAccounts();
+			return true;
+		case android.R.id.home:
+			Intent upIntent = new Intent(this, CustomerListActivity.class);
+			navigateUpToFromChild(this, upIntent);
+			return true;
+		default:
+			return super.onOptionsItemSelected(item);
 		}
 	}
-
+	
+	/**
+	 * Calling remote service in a AsyncTask. An asynchronous task is defined by
+	 * a computation that runs on a background thread and whose result is
+	 * published on the UI thread.
+	 * @see AsyncTask
+	 * 
+	 */
 	private class GetAccountsOfCustomerTask extends
 			AsyncTask<Customer, Void, AccountCollection> {
 
+		// 1. Processing the task and returning the result
 		@Override
 		protected AccountCollection doInBackground(Customer... params) {
 			Customer c = params[0];
@@ -91,7 +99,7 @@ public class AccountListActivity extends Activity {
 			Bankadministrationapi service = EndpointsUtil.getEndpointsService();
 
 			try {
-				return service.getAccountsOf(c.getId()).execute(); 
+				return service.getAccountsOf(c.getId()).execute();
 
 			} catch (IOException e) {
 				Log.e(EndpointsUtil.LOG, e.getMessage(), e);
@@ -100,6 +108,8 @@ public class AccountListActivity extends Activity {
 
 		}
 
+		// 2. Receiving the result and handling the gui / similar to onSuccess()
+		// in AsyncCallback<T> in GWT GUIs
 		@Override
 		protected void onPostExecute(AccountCollection result) {
 			List<Account> accounts = result.getItems();
