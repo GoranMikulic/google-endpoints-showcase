@@ -1,4 +1,0 @@
-# Module bankprojekt_2_0
-# RPC service class, partial path of RPC policy file
-de.hdm.thies.bankProjekt.shared.ReportGenerator, E432B92AB80131AD856CAEF212838385.gwt.rpc
-de.hdm.thies.bankProjekt.shared.BankAdministration, 8CABFE9817D7909550D37229C7D7BA23.gwt.rpc

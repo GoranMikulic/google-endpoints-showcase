@@ -2,19 +2,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:padding="10dp">
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/accountNumberLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:ellipsize="end"
+        android:text="@string/account_number"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/listItemAccountId"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_toRightOf="@id/accountNumberLabel"
+        android:ellipsize="end"
+        android:paddingLeft="15dp"
+        android:textSize="22sp" />
     
-  <TextView 
-      android:id="@+id/listItemAccountId"
-      android:layout_width="wrap_content"
-      android:layout_height="fill_parent"
-      android:ellipsize="end" />
-  
-  <TextView 
-      android:id="@+id/listItemBalance"
-      android:layout_width="wrap_content"
-      android:layout_height="fill_parent"
-      android:layout_toRightOf="@id/listItemAccountId"
-      android:paddingLeft="5dp" />
+    <TextView
+        android:id="@+id/balanceLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:ellipsize="end"
+        android:layout_toRightOf="@id/listItemAccountId"
+        android:text="@string/balance"
+        android:paddingLeft="35dp"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/listItemBalance"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_toRightOf="@id/balanceLabel"
+        android:paddingLeft="15dp"
+        android:textSize="22sp" />
 
 </RelativeLayout>
