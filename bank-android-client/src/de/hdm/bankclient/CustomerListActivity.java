@@ -33,7 +33,7 @@ public class CustomerListActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_customer_list);
-		
+
 		// Setting adapter for ListView
 		customerListView = (ListView) findViewById(R.id.listviewCustomers);
 		arrayAdapter = new CustomerAdapter(this, R.layout.list_item_cuostomer,
@@ -71,12 +71,16 @@ public class CustomerListActivity extends Activity {
 	}
 
 	/**
-	 * Calling remote service in async task
-	 *
+	 * Calling remote service in a AsyncTask. An asynchronous task is defined by
+	 * a computation that runs on a background thread and whose result is
+	 * published on the UI thread.
+	 * @see AsyncTask
+	 * 
 	 */
 	private class GetAllCustomersTask extends
 			AsyncTask<String, Void, CustomerCollection> {
 
+		// 1. Processing the task and returning the result
 		@Override
 		protected CustomerCollection doInBackground(String... params) {
 
@@ -96,6 +100,8 @@ public class CustomerListActivity extends Activity {
 			}
 		}
 
+		// 2. Receiving the result and handling the gui / similar to onSuccess()
+		// in AsyncCallback<T> in GWT GUIs
 		@Override
 		protected void onPostExecute(CustomerCollection result) {
 			List<Customer> customers = result.getItems();
@@ -116,7 +122,7 @@ public class CustomerListActivity extends Activity {
 
 	@Override
 	public boolean onOptionsItemSelected(MenuItem item) {
-		
+
 		int id = item.getItemId();
 		if (id == R.id.action_refresh_customers) {
 			refreshCustomers();
