@@ -14,7 +14,7 @@ import de.hdm.thies.bankProjekt.shared.bo.Customer;
 @Api(name = "bankadministrationapi", version = "v1", description = "Bank Administration APIs", clientIds = { "1090984442246-4gc875lktk8b48nhglnnnovo12pvg6q2.apps.googleusercontent.com" }, audiences = { "1090984442246-4gc875lktk8b48nhglnnnovo12pvg6q2.apps.googleusercontent.com" })
 public class BankAdministrationEndpoints {
 
-	BankAdministration bankAdministration;
+	private BankAdministration bankAdministration;
 
 	public BankAdministrationEndpoints() {
 		this.bankAdministration = new BankAdministrationImpl();

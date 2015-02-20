@@ -28,9 +28,7 @@ public class EndpointsUtil {
 		Bankadministrationapi.Builder builder = new Bankadministrationapi.Builder(
 				AndroidHttp.newCompatibleTransport(), new GsonFactory(), null);
 
-		// this should be removed in production - only for local testing
-		// builder.setRootUrl("http://localhost:8888/_ah/api");
-		//builder.setRootUrl("http://10.0.2.2:8888/_ah/api");
+		// this should be removed in production - only for dev environment
 		builder.setRootUrl("http://192.168.56.1:8888/_ah/api");
 		builder.setApplicationName("bankadministrationapi");
 		

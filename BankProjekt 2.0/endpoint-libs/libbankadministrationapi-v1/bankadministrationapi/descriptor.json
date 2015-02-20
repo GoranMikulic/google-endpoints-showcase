@@ -1,13 +1,13 @@
 {
   "files": [
     {
-      "downloadUrl": "/downloads/bankadministrationapi/v1/20150110144527/java/1.18.0-rc/skillful_octane_742_appspot_com-bankadministrationapi-v1-20150110144527-java-1.18.0-rc-sources.jar", 
-      "path": "skillful_octane_742_appspot_com-bankadministrationapi-v1-20150110144527-java-1.18.0-rc-sources.jar", 
+      "downloadUrl": "/downloads/bankadministrationapi/v1/20150218184508/java/1.18.0-rc/skillful_octane_742_appspot_com-bankadministrationapi-v1-20150218184508-java-1.18.0-rc-sources.jar", 
+      "path": "skillful_octane_742_appspot_com-bankadministrationapi-v1-20150218184508-java-1.18.0-rc-sources.jar", 
       "type": "source", 
-      "timestamp": "2015-01-10 14:45"
+      "timestamp": "2015-02-18 18:45"
     }, 
     {
-      "path": "skillful_octane_742_appspot_com-bankadministrationapi-v1-20150110144527-java-1.18.0-rc.jar.properties", 
+      "path": "skillful_octane_742_appspot_com-bankadministrationapi-v1-20150218184508-java-1.18.0-rc.jar.properties", 
       "type": "android.properties"
     }
   ], 
@@ -674,5 +674,5 @@
   "version": "v1", 
   "language_version": "1.18.0-rc", 
   "id": "bankadministrationapi:v1", 
-  "revision": 20150110144527
+  "revision": 20150218184508
 }

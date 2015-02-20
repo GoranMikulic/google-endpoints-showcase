@@ -822,4 +822,12 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_vWXsULeOEeSYY5EFXYqqJw" id="(1.0,0.44936708860759494)"/>
     </edges>
   </notation:Diagram>
+  <notation:Diagram xmi:id="_DGosMLgbEeS7w-OSOWJPhg" type="PapyrusUMLClassDiagram" name="GeneratedClient" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_DGosMbgbEeS7w-OSOWJPhg" name="diagram_compatibility_version" stringValue="1.0.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_DGosMrgbEeS7w-OSOWJPhg"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_DGosM7gbEeS7w-OSOWJPhg">
+      <owner xmi:type="uml:Package" href="bank-android-client.uml#_pNbqELeMEeSRrPW2GBH9ug"/>
+    </styles>
+    <element xmi:type="uml:Package" href="bank-android-client.uml#_pNbqELeMEeSRrPW2GBH9ug"/>
+  </notation:Diagram>
 </xmi:XMI>
